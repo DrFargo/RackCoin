@@ -41,7 +41,7 @@ SplashScreen::SplashScreen(interfaces::Node& node, Qt::WindowFlags f, const Netw
     // define text to place
     QString titleText       = PACKAGE_NAME;
     QString versionText     = QString("Version %1").arg(QString::fromStdString(FormatFullVersion()));
-    QString copyrightText   = QChar(0xA9)+QString(" 2020-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The RackCoin & Bitcoin developers"));
+    QString copyrightText   = QChar(0xA9)+QString(" 2020-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Rackcoin & Bitcoin developers"));
     QString titleAddText    = networkStyle->getTitleAddText();
 
     QString font            = QApplication::font().toString();

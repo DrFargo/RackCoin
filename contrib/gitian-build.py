@@ -23,7 +23,7 @@ def setup():
         programs += ['lxc', 'debootstrap']
     subprocess.check_call(['sudo', 'apt-get', 'install', '-qq'] + programs)
     if not os.path.isdir('gitian.sigs.ltc'):
-        subprocess.check_call(['git', 'clone', 'https://github.com/DrFargo/gitian.sigs.ltc.git'])
+        subprocess.check_call(['git', 'clone', 'https://github.com/DrFargo/gitian.sigs.rack.git'])
     if not os.path.isdir('rackcoin-detached-sigs'):
         subprocess.check_call(['git', 'clone', 'https://github.com/DrFargo/rackcoin-detached-sigs.git'])
     if not os.path.isdir('gitian-builder'):

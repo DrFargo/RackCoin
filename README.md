@@ -3,6 +3,8 @@ Rackcoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/DrFargo/RackCoin.svg?branch=main)](https://travis-ci.org/DrFargo/RackCoin)
 
+![](https://github.com/DrFargo/RackCoin/blob/main/share/pixmaps/RackCoinFull.png)
+
 https://coin.rack-cloud.com
 
 What is Rackcoin?

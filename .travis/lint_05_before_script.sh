@@ -7,4 +7,4 @@
 export LC_ALL=C
 
 git fetch --depth=10000
-git update-index --chmod=+x test/lint/git-subtree-check.sh
+git update-index --chmod=+x ./test/lint/git-subtree-check.sh

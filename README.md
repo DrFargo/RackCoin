@@ -1,4 +1,4 @@
-Rackcoin Core integration/staging tree
+OUTDATED
 =====================================
 
 [![Build Status](https://travis-ci.org/DrFargo/RackCoin.svg?branch=main)](https://travis-ci.org/DrFargo/RackCoin)
